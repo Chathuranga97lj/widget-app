@@ -10,6 +10,9 @@ class Profile extends StatelessWidget {
         backgroundColor: Colors.purple,
         title: Text("Profile"),
       ),
+      body: Container(
+        child: Image.asset("images/profile.jpg"),
+      ),
     );
   }
 }
